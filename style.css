@@ -1,0 +1,230 @@
+@font-face {
+  font-family: Titilliumbold;
+  src: url("webfonts/TitilliumWeb-Bold.ttf");
+}
+@font-face {
+  font-family: TitilliumRegular;
+  src: url("webfonts/TitilliumWeb-Regular.ttf");
+}
+@font-face {
+  font-family: TitilliumSemiBold;
+  src: url("webfonts/TitilliumWeb-SemiBold.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  font-size: 17px;
+  font-family: TitilliumRegular;
+}
+h1,h2,h3,h4,h5,h6{
+  
+  font-family: TitilliumSemiBold;
+}
+/* ======================================================
+  <!-- =========Header area started ===============  -->
+=========================================================*/
+.menu {
+  background-color: #87509c;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  padding: 10px 20px;
+  transition: all 0.4s ease-in-out;
+}
+.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #643a79;
+  border-radius: 5px;
+}
+.text-area {
+  margin-top: 150px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+.btn {
+  margin: 10px 0 150px 0;
+  background-color: #eb7d4b;
+  border: none;
+  border-bottom: 4px solid #c86a40;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-color: #17c2a4;
+  border-bottom: 4px solid #0b8d75;
+}
+/* ======================================================
+  <!-- =========Header area ends ===============  -->
+=========================================================*/
+
+/* ==============services section=========== */
+.services {
+  background-color: #17c2a4;
+  padding-bottom: 100px;
+}
+.services h1 {
+  padding-top: 100px;
+  letter-spacing: 3px;
+  font-family: TitilliumSemiBold;
+}
+hr {
+  border: none;
+  width: 10%;
+  height: 4px;
+  border-radius: 25px;
+  background-color: #14a58c;
+}
+.services p:first-child {
+  letter-spacing: 1px;
+}
+.services .icon h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.services .icon img:hover {
+  transform: rotate(-25deg);
+}
+.services .icon img {
+  transition: all 0.4s ease-in-out;
+}
+
+/* ==========Team Mamber  ==============*/
+.Team {
+  background-color: #d8edfc;
+}
+.Team-text h1 {
+  padding-top: 100px;
+  letter-spacing: 3px;
+  font-family: TitilliumSemiBold;
+}
+hr {
+  border: none;
+  width: 10%;
+  height: 4px;
+  border-radius: 25px;
+  background-color: #14a58c;
+}
+.row .img {
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+.row .images {
+}
+.row .img:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.social-circle a{
+  transition: all .4s ease-in-out;
+}
+.social-circle a:hover{
+  transform: rotate(360deg);
+}
+/* ========Siklls section ============= */
+.skills{
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+.skills h1{
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: TitilliumSemiBold;
+}
+.skills hr{
+  background-color: #dfe8ed;
+}
+.skills-bar h3{
+  font-family: TitilliumSemiBold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.skills-bar .skills-img{
+  position: relative;
+}
+.skills-bar p{
+  color: #D74680;
+}
+.skills-bar p{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-family: TitilliumSemiBold;
+  font-size:40px;
+}
+/*============ Tab Section========== */
+.tab{
+  background-color: #FFDD99;
+  padding-top: 100px;
+}
+.tab hr{
+  background-color: #e5c37f;
+}
+.active, .navbar-dark .navbar-nav .nav-link:hover{
+  background-color: transparent;
+}
+.tab-content img{
+  width: 100%;
+}
+ .nav-tabs{
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  color: #000;
+  border: 0px solid transparent;
+  text-transform: uppercase;
+  padding:10 20px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+  border: none;
+  color: #FFF;
+  background-color: #EBC985;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: #EBC985;
+  border: none;
+  color: #FFF;
+}
+
+/* ===============Client Sction design =============== */
+.client-section{
+  background-color: #D74680;
+  color: #fff;
+}
+.client-section hr{
+  background-color: #b73c6d;
+}
+
+/* ==============Cottact Form area============ */
+.contact-form{
+  background-color: #3C5499;
+  padding-top: 100px;
+}
+.contact-form form input:not([type="submit"]),
+.contact-form form textarea:focus,
+.contact-form form textarea{
+  background-color: #273A71;
+  border: none;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.up {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+}
+.up a{
+
+  color: #000000;
+}
